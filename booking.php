@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    
     <!-- ===============================*****Start Header*****=============================== -->
     <header>
         <div class="top-nav">
@@ -68,9 +69,9 @@
                                 <li><a href="about-us.html">About Us</a></li>
                                 <li><a href="services.html">Services</a></li>
                                 <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact-us.html">Contact Us</a></li>
+                                <li><a href="contact-us.php">Contact Us</a></li>
                                 <li><a href="booking.php">Booking</a></li>
-                                <li class="link-01"><a href="#">free evalution</a></li>
+                                <li class="link-01"><a href="login.php">Log in</a></li>
                               </ul>
                             </div>
                         </div>
@@ -83,37 +84,39 @@
 
     <!-- ===============================*****Start Slider*****=============================== -->
 <!-- //////////////booking -->
+<section class="bg-02-b contact-01">
+        <div class="container">
 <div class="row my_row_y mar-01">
-                <form action="add-customer.php" method = "POST">
+                <form action="add-booking.php" method = "POST">
                 <div class="row">
                     
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
-                            <input type="name" name="f_name" placeholder="Case Category" class="form-control">
+                            <input type="name" name="case_category" placeholder="Case Category" class="form-control">
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
-                            <input type="name" name="l_name" placeholder="Case Detail" class="form-control">
+                            <input type="name" name="case_detail" placeholder="Case Detail" class="form-control">
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
-                            <input type="name" name="phone" placeholder="City" class="form-control">
+                            <input type="name" name="City" placeholder="City" class="form-control">
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
-                            <input type="email" name="email" placeholder="Court" class="form-control">
+                            <input type="text" name="Court" placeholder="Court" class="form-control">
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
-                            <input type="phone" name="city" placeholder="Appointment Date" class="form-control"> 
+                            <input type="phone" name="Appointment Date" placeholder="Appointment Date" class="form-control"> 
                         </div>
                     </div>
 
@@ -121,7 +124,7 @@
 
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
-                            <input type="text" name="user_name" placeholder="Lawyers" class="form-control">
+                            <input type="text" name="Lawyers" placeholder="Lawyers" class="form-control">
                         </div>
                     </div>
 
@@ -136,12 +139,14 @@
 
                     <div class="col-12">
                         <div class="btn-001">
-                            <input type="submit" name="save" id="">
+                            <input type="submit" name="save" id="" >
                         </div>
                     </div>
                 
                 </div>
             </form>
+            </div>
+    </section>
 <!-- //////////////booking -->
     <body>
     <footer>

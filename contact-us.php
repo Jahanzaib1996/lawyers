@@ -68,9 +68,9 @@
                                     <li><a href="about-us.html">About Us</a></li>
                                     <li><a href="services.html">Services</a></li>
                                     <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                    <li><a href="contact-us.php">Contact Us</a></li>
                                     <li><a href="booking.php">Booking</a></li>
-                                    <li class="link-01"><a href="#">free evalution</a></li>
+                                    <li class="link-01"><a href="login.php">Log in</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="head-001">
-                        <h2>Create Id</h2>
+                        <h2>Sign up</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laborisnisi.</p>

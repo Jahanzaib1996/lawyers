@@ -11,7 +11,7 @@ $cust_password = $_POST["password"];
 
 $conn = mysqli_connect("localhost","root","","lawyers") or die("connection unsuccesfull");
 
-$query = "INSERT INTO `customers`(`F_Name`, `L_Name`, `Phone`, `Email`, `City`, `Username`, `Password`) VALUES ('{$cust_fName}','{$cust_lName}','{$cust_phone}','{$cust_email}','{$cust_city}','{$cust_userName}','$cust_password')";
+$query = "INSERT INTO `customers`(`F_Name`, `L_Name`, `Phone`, `Email`, `City`, `Username`, `Password`) VALUES ('{$cust_fName}','{$cust_lName}','{$cust_phone}','{$cust_email}','{$cust_city}','{$cust_userName}','{$cust_password}')";
 
 mysqli_query($conn,$query);
 
