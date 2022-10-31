@@ -42,8 +42,8 @@
                             </div>
                             <div class="top-sec-2">
                                 <ol>
-                                    <li><i class="fab fa-facebook-square"></i></li>
-                                    <li><i class="fab fa-twitter"></i></li>
+                                <a href="https://www.facebook.com/login.php/">  <li><i class="fab fa-facebook-square"></i></li> </a>
+                                    <a href="https://twitter.com/i/flow/login"> <li><i class="fab fa-twitter"></i></li> </a>
                                     <li class="last"><i class="fas fa-search"></i></li>
                                 </ol>
                             </div>
@@ -185,11 +185,11 @@
                     <div class="footer-content">
                         <p>publishing software like Aldus PageMaker Lorem Ipsum
                             publishing software like Aldus PageMaker Lorem Ipsum</p>
-                        <ol>
-                            <li><i class="fab fa-facebook-square"></i></li>
-                            <li><i class="fab fa-pinterest"></i></li>
-                            <li><i class="fab fa-instagram"></i></li>
-                            <li><i class="fab fa-twitter"></i></li>
+                            <ol>
+                          <a href="https://www.facebook.com/login.php/">  <li><i class="fab fa-facebook-square"></i></li> </a>
+                          <a href="https://www.pinterest.com/login/">  <li><i class="fab fa-pinterest"></i></li> </a>
+                           <a href="https://www.instagram.com/"> <li><i class="fab fa-instagram"></i></li> </a>
+                           <a href="https://twitter.com/i/flow/login"> <li><i class="fab fa-twitter"></i></li> </a>
                         </ol>
                     </div>
                 </div>

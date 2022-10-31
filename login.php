@@ -6,7 +6,7 @@ session_start();
 
 if(isset($_SESSION["username"]))
 {
-    header("location:http://localhost:82/lawyers-main/login.php");
+    header("location:http://localhost:82/lawyers-main/index.html");
 
 }
 
@@ -18,6 +18,8 @@ if(isset($_SESSION["username"]))
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
+
+
 
 <!DOCTYPE html>
 <html>
@@ -105,7 +107,7 @@ if(mysqli_num_rows($result)>0)
         $_SESSION["user_id"] = $row["user_id"];
         $_SESSION["user_role"] = $row["role"];
 
-        header("location:http://localhost:82/lawyers-main/login.php");
+        header("location:http://localhost:82/lawyers-main/index.html");
     }
 }
 else
